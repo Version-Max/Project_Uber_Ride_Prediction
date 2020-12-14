@@ -45,7 +45,7 @@
 ## Conclusion:
 
 * Linear regression gave us the following result:
-<img src='images/plot_a.png' width='45%' height='45%'>
+<img src='images/plot_b.png' width='45%' height='45%'>
 
 
 ## Model Deployment:
