@@ -37,18 +37,21 @@
 ## Model Building:
 
 * Using LazyPredict library a quick analysis of how multiple algorithms perform with the data showed the following results:
-<img src='images/plot_a.png' width='25%' height='25%'>
+<img src='images/plot_a.png' width='35%' height='35%'>
+* Therefore, from the above Linear Regression seemed the most sensible algorithm to use in building the model. Others algorithms showed signs of overfitting while the other half showed weakness in accuracy.
+
 
 
 ## Conclusion:
 
-* Linear Regression was selected as the ultimate choice for model building. Linear Regression's score and cross validation on test data gave stronger results compared to the other algorithms tested.
+* Linear regression gave us the following result:
+<img src='images/plot_a.png' width='45%' height='45%'>
 
 
 ## Model Deployment:
 
 * With the help of Pickle library the model was exported as an API.
 * Using Flask a server was created to onboard the API and serve an interactable webpage that lets users input the location, bedrooms and bathroom to get the price prediction:
-<img src='images/plot_g.png' width='45%' height='45%'>
+<img src='images/plot_d.png' width='45%' height='45%'>
 
-### The file with detailed step-by-step code is [here](/Price_Prediction_of_homes.ipynb).
+### The file with detailed step-by-step code is [here](/Machine_Learning.ipynb).
